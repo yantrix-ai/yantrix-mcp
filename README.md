@@ -2,6 +2,8 @@
 
 > Dynamic MCP server for the Yantrix API portfolio. One install gives any MCP-compatible AI agent access to 30+ tools across research, memory, language, legal, security, intelligence, and more.
 
+[![Yantrix MCP server](https://glama.ai/mcp/servers/praveen030686/yantrix-mcp/badges/card.svg)](https://glama.ai/mcp/servers/praveen030686/yantrix-mcp)
+
 ## What makes it dynamic
 
 Unlike static MCP packages, `@yantrix/mcp` fetches its tool list from `registry.yantrix.ai` on startup. When new APIs are added to the Yantrix portfolio, they appear automatically on your next MCP host restart — no package update needed.
