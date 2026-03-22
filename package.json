@@ -1,6 +1,6 @@
 {
   "name": "@praveen030686/yantrix-mcp",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Dynamic MCP server for the Yantrix API portfolio — 30+ tools across research, memory, language, legal, security, intelligence, and more.",
   "main": "dist/index.js",
   "bin": {
@@ -12,7 +12,14 @@
     "dev": "ts-node src/index.ts",
     "prepublishOnly": "npm run build"
   },
-  "keywords": ["mcp", "ai", "agents", "x402", "yantrix", "tools"],
+  "keywords": [
+    "mcp",
+    "ai",
+    "agents",
+    "x402",
+    "yantrix",
+    "tools"
+  ],
   "author": "Yantrix",
   "license": "MIT",
   "dependencies": {
@@ -27,7 +34,10 @@
   "engines": {
     "node": ">=18.0.0"
   },
-  "files": ["dist/", "README.md"],
+  "files": [
+    "dist/",
+    "README.md"
+  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/praveen030686/yantrix-mcp"
