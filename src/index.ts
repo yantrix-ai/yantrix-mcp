@@ -22,7 +22,7 @@ import {
 
 const REGISTRY_URL =
   process.env.YANTRIX_REGISTRY_URL ||
-   "https://mcp-registry-production-07b3.up.railway.app/mcp-registry.json";
+   "https://registry.yantrix.ai/mcp-registry.json";
 
 const X_PAYMENT_HEADER = process.env.X_PAYMENT_HEADER || "";
 const DEV_MODE = process.env.DEV_MODE === "true";
