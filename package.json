@@ -1,6 +1,6 @@
 {
   "name": "@praveen030686/yantrix-mcp",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Dynamic MCP server for the Yantrix API portfolio — 30+ tools across research, memory, language, legal, security, intelligence, and more.",
   "main": "dist/index.js",
   "bin": {
