@@ -1,5 +1,5 @@
 {
-  "name": "@yantrix.ai/mcp",
+  "name": "@yantrix/mcp",
   "version": "1.0.4",
   "description": "Dynamic MCP server for the Yantrix API portfolio — 30+ tools across research, memory, language, legal, security, intelligence, and more.",
   "main": "dist/index.js",
