@@ -1,23 +1,23 @@
-# @yantrix/mcp
+# @yantrixai/mcp
 
 > Dynamic MCP server for the Yantrix API portfolio. One install gives any MCP-compatible AI agent access to 30+ tools across research, memory, language, legal, security, intelligence, and more.
 
 ## What makes it dynamic
 
-Unlike static MCP packages, `@yantrix/mcp` fetches its tool list from `registry.yantrix.ai` on startup. When new APIs are added to the Yantrix portfolio, they appear automatically on your next MCP host restart — no package update needed.
+Unlike static MCP packages, `@yantrixai/mcp` fetches its tool list from `registry.yantrix.ai` on startup. When new APIs are added to the Yantrix portfolio, they appear automatically on your next MCP host restart — no package update needed.
 
 ---
 
 ## Install
 
 ```bash
-npm install -g @yantrix/mcp
+npm install -g @yantrixai/mcp
 ```
 
 Or use directly with npx:
 
 ```bash
-npx @yantrix/mcp
+npx @yantrixai/mcp
 ```
 
 ---
@@ -33,7 +33,7 @@ Add to `~/Library/Application Support/Claude/claude_desktop_config.json`:
   "mcpServers": {
     "yantrix": {
       "command": "npx",
-      "args": ["@yantrix/mcp"],
+      "args": ["@yantrixai/mcp"],
       "env": {
         "X_PAYMENT_HEADER": "<your-x402-payment-proof>",
         "DEV_MODE": "false"
@@ -50,7 +50,7 @@ Add to `~/Library/Application Support/Claude/claude_desktop_config.json`:
   "mcpServers": {
     "yantrix": {
       "command": "npx",
-      "args": ["@yantrix/mcp"],
+      "args": ["@yantrixai/mcp"],
       "env": {
         "DEV_MODE": "true"
       }
@@ -106,11 +106,11 @@ To get a payment header, visit [x402.org](https://x402.org) or use the x402 clie
 ## How it works
 
 ```
-1. npx @yantrix/mcp starts
+1. npx @yantrixai/mcp starts
 2. Fetches https://registry.yantrix.ai/mcp-registry.json
 3. Registers all tools dynamically
 4. MCP host calls any tool
-5. @yantrix/mcp routes call to correct Yantrix API
+5. @yantrixai/mcp routes call to correct Yantrix API
 6. Response returned to agent
 ```
 

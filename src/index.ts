@@ -1,13 +1,13 @@
 #!/usr/bin/env node
 /**
- * @yantrix/mcp — Dynamic MCP Server
+ * @yantrixai/mcp — Dynamic MCP Server
  *
  * Fetches tool registry from registry.yantrix.ai on startup.
  * New APIs appear automatically — no package update needed.
  *
  * Usage:
- *   npx @yantrix/mcp
- *   X_PAYMENT_HEADER=<your-payment> npx @yantrix/mcp
+ *   npx @yantrixai/mcp
+ *   X_PAYMENT_HEADER=<your-payment> npx @yantrixai/mcp
  */
 
 import { Server } from "@modelcontextprotocol/sdk/server/index.js";
@@ -135,7 +135,7 @@ async function callTool(
 
 const server = new Server(
   {
-    name: "@yantrix/mcp",
+    name: "@yantrixai/mcp",
     version: "1.0.0",
   },
   {
